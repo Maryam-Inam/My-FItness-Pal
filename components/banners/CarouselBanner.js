@@ -4,20 +4,23 @@ import { Carousel } from "react-responsive-carousel";
 import { StarIcon } from "@heroicons/react/solid";
 function CarouselBanner() {
   return (
-    <section className="h-96 bg-gray-900 relative">
-      <div className="flex flex-col p-20  items-center space-y-8">
+    <section className="h-108 bg-gray-900 relative">
+      <div className="flex flex-col px-10 py-20  items-center space-y-8">
         <div className="flex text-amber-300 ">
-          <StarIcon className="h-8 w-8" />
-          <StarIcon className="h-8 w-8" />
-          <StarIcon className="h-8 w-8" />
-          <StarIcon className="h-8 w-8" />
-          <StarIcon className="h-8 w-8" />
+          <StarIcon className="h-10 w-10" />
+          <StarIcon className="h-10 w-10" />
+          <StarIcon className="h-10 w-10" />
+          <StarIcon className="h-10 w-10" />
+          <StarIcon className="h-10 w-10" />
         </div>
-        <div className="flex flex-col text-white font-bold text-4xl items-center space-y-2">
-          <p>3.7 Million</p>
-          <p>5-Star Reviews</p>
+        <div className=" text-white font-bold text-5xl">
+          <p>
+            3.7 Million 5-Star Reviews
+            {/* <span>3.7 Million </span>
+            <span>5-Star Reviews</span> */}
+          </p>
         </div>
-        <div className="text-white ">
+        <div className="text-white pt-2 text-2xl w-full h-32 ">
           <Carousel
             autoPlay
             infiniteLoop
