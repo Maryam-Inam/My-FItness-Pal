@@ -1,7 +1,5 @@
 import React from "react";
-// import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
-import Icon from "@mdi/react";
-import { mdiCircleSmall } from "@mdi/js";
+import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 
 function Thumbnail({ onClick, active }) {
   return (
@@ -11,16 +9,7 @@ function Thumbnail({ onClick, active }) {
       } overflow-hidden cursor-pointer`}
       onClick={onClick}
     >
-      {/* <FiberManualRecordIcon /> */}
-      {/* <Icon
-        path={mdiCircleSmall}
-        size={2}
-        style={{
-          "& > svg": {
-            padding: "4px", // Adjust the inner padding as needed
-          },
-        }}
-      /> */}
+      <FiberManualRecordIcon fontSize="small" />
     </div>
   );
 }

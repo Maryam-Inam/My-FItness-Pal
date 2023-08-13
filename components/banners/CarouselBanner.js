@@ -73,7 +73,7 @@ function CarouselBanner() {
               </div>
             ))}
           </Carousel>
-          <div className="flex space-x-0">
+          <div className="flex justify-center">
             {quotes.map((quote, index) => (
               <Thumbnail
                 key={quote.auth}
