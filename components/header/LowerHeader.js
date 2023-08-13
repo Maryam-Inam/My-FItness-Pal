@@ -3,8 +3,10 @@ import React from "react";
 function LowerHeader() {
   return (
     <div
-      style={{ backgroundColor: "rgba(255, 255, 255, 0.5)" }}
-      className="lg:px-44 flex space-x-2 p-2 "
+      style={{
+        backgroundColor: "rgba(255, 255, 255, 0.5)",
+      }}
+      className="lg:px-44 flex space-x-2 p-2 backdrop-blur-xl"
     >
       <button className=" bg-theme_blue-light px-4 rounded-full my-2 text-base text-white font-bold hover:bg-theme_blue">
         Reviews
