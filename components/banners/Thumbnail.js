@@ -9,7 +9,7 @@ function Thumbnail({ onClick, active }) {
       } overflow-hidden cursor-pointer`}
       onClick={onClick}
     >
-      <FiberManualRecordIcon fontSize="small" />
+      <FiberManualRecordIcon style={{ fontSize: "12px" }} />
     </div>
   );
 }
