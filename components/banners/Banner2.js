@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import { StarIcon } from "@heroicons/react/solid";
 import Thumbnail from "./Thumbnail";
-function CarouselBanner() {
+function Banner2() {
   const quotes = [
     {
       text: "Good for tracking calories and macros with a huge database of food.",
@@ -36,23 +36,21 @@ function CarouselBanner() {
     setActiveIndex(index);
   };
   return (
-    <section className="h-108 bg-gray-900 relative">
-      <div className="flex flex-col px-10 py-20  items-center space-y-8">
+    <div className="h-108 bg-gray-900 relative">
+      <div className="flex flex-col  px-10 py-20  items-center space-y-8">
         <div className="flex text-amber-300 ">
-          <StarIcon className="h-10 w-10" />
-          <StarIcon className="h-10 w-10" />
-          <StarIcon className="h-10 w-10" />
-          <StarIcon className="h-10 w-10" />
-          <StarIcon className="h-10 w-10" />
+          <StarIcon className="h-8 w-8 lg:h-10 lg:w-10" />
+          <StarIcon className="h-8 w-8 lg:h-10 lg:w-10" />
+          <StarIcon className="h-8 w-8 lg:h-10 lg:w-10" />
+          <StarIcon className="h-8 w-8 lg:h-10 lg:w-10" />
+          <StarIcon className="h-8 w-8 lg:h-10 lg:w-10" />
         </div>
-        <div className=" text-white font-bold text-5xl">
-          <p>
-            3.7 Million 5-Star Reviews
-            {/* <span>3.7 Million </span>
-            <span>5-Star Reviews</span> */}
-          </p>
+
+        <div className="text-white font-bold text-4xl text-center lg:text-5xl">
+          <p className="lg:inline">3.7 Million</p>
+          <p className="lg:inline"> 5-Star Reviews</p>
         </div>
-        <div className="text-white pt-2 text-2xl w-full h-32 ">
+        <div className="text-white pt-2 text-xl lg:text-2xl w-full h-32 ">
           <Carousel
             autoPlay
             infiniteLoop
@@ -84,8 +82,8 @@ function CarouselBanner() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
-export default CarouselBanner;
+export default Banner2;

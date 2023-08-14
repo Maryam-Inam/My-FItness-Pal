@@ -2,7 +2,7 @@ import React from "react";
 import { ChevronRightIcon } from "@heroicons/react/solid";
 function UpperHeader() {
   return (
-    <div className="hidden md:flex justify-between items-center p-2 bg-white lg:px-44 ">
+    <div className="hidden lg:flex justify-between items-center p-2 bg-white lg:px-44 ">
       <h2
         style={{
           fontFamily: "sans-serif",
@@ -13,7 +13,7 @@ function UpperHeader() {
       >
         myfitnesspal`
       </h2>
-      <p className=" flex rounded-full bg-theme_blue-light text-blue-100 px-2 font-extrabold items-center cursor-pointer hover:bg-theme_blue">
+      <p className="hidden lg:flex rounded-full bg-theme_blue-light text-blue-100 px-2 font-extrabold items-center cursor-pointer hover:bg-theme_blue">
         <span className=" text-xs px-2 my-2">START TODAY</span>
         <ChevronRightIcon className="h-8 w-5" />
       </p>
