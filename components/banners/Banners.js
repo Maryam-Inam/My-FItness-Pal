@@ -1,7 +1,7 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import Banner2 from "./Banner2";
 import Banner1 from "./banner1";
+import Banner2 from "./Banner2";
 import Banner3 from "./Banner3";
 import Banner4 from "./Banner4";
 function Banners() {
