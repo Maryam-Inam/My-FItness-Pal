@@ -8,7 +8,9 @@ function Banner1() {
   return (
     <div className=" bg-theme_blue-light relative bg-gradient-to-tr from-purple-400 via-blue-500/0 to-transparent bottom-0 ">
       <div className="flex justify-between items-center p-2 lg:px-44 ">
-        <p className="font-bold text-white">myfitnesspal`</p>
+        <p className="font-semibold text-white text-2xl lg:text-3xl">
+          myfitnesspal`
+        </p>
         <p className="cursor-pointer">
           <Icon
             path={mdiAccountCircle}

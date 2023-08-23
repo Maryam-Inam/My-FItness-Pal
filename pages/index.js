@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/header/Header";
 import Banners from "../components/banners/Banners";
+import StickyBtn from "../components/header/StickyBtn";
 export default function Home() {
   return (
     <div>
@@ -11,9 +12,8 @@ export default function Home() {
       <main>
         <Header />
         <Banners />
+        <StickyBtn />
       </main>
-
-      <footer></footer>
     </div>
   );
 }
