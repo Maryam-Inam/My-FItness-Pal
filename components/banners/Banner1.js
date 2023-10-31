@@ -21,9 +21,9 @@ function Banner1() {
         </p>
       </div>
       <div className="flex flex-col items-center justify-center lg:flex-row px-16 space-x-10 lg:pr-40 lg:pl-44 lg:justify-start">
-        <div className="flex flex-col items-center justify-center text-white lg:pt-20 pt-8 lg:items-start">
+        <div className="flex flex-col items-center justify-center text-white lg:pt-20 pt-8 lg:items-start max-w-[300px] md:max-w-[400px] lg:max-w-max">
           <p className="text-bold text-blue-100">#1 nutrition tracking app</p>
-          <h1 className="flex flex-col text-center text-5xl pt-2 lg:max-w-[700px] lg:text-left lg:text-7xl">
+          <h1 className="flex flex-col text-center text-5xl pt-2  lg:max-w-[700px] lg:text-left lg:text-7xl">
             <span className="text-bold font-sans">
               Reach your goals
               <span className=" font-normal"> with MyFitnessPal</span>
